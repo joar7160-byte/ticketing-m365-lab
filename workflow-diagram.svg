@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1280 420" width="1280" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0078D4"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="420" fill="#ffffff"/>
+
+  <text x="640" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" fill="#1b1b1b" text-anchor="middle">Ticket to Resolution Workflow</text>
+  <text x="640" y="64" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#666666" text-anchor="middle">osTicket intake tied to real Microsoft 365 administration</text>
+
+  <!-- Step 1: Ticket Submitted -->
+  <rect x="40" y="140" width="200" height="120" rx="8" fill="#f3f8fd" stroke="#8ab4d8" stroke-width="1.5"/>
+  <text x="140" y="175" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="middle">1. Ticket Submitted</text>
+  <text x="140" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">Employee or manager</text>
+  <text x="140" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">submits a request</text>
+  <text x="140" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">in osTicket</text>
+
+  <line x1="240" y1="200" x2="288" y2="200" stroke="#0078D4" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 2: Categorized -->
+  <rect x="290" y="140" width="200" height="120" rx="8" fill="#f3f8fd" stroke="#8ab4d8" stroke-width="1.5"/>
+  <text x="390" y="175" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="middle">2. Categorized</text>
+  <text x="390" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">Routed to one of</text>
+  <text x="390" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">4 help topics based</text>
+  <text x="390" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">on request type</text>
+
+  <line x1="490" y1="200" x2="538" y2="200" stroke="#0078D4" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 3: Resolved -->
+  <rect x="540" y="140" width="200" height="120" rx="8" fill="#f3f8fd" stroke="#8ab4d8" stroke-width="1.5"/>
+  <text x="640" y="175" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="middle">3. Resolved</text>
+  <text x="640" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">Actual task performed</text>
+  <text x="640" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">in the Microsoft 365</text>
+  <text x="640" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">admin center</text>
+
+  <line x1="740" y1="200" x2="788" y2="200" stroke="#0078D4" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 4: Documented -->
+  <rect x="790" y="140" width="200" height="120" rx="8" fill="#f3f8fd" stroke="#8ab4d8" stroke-width="1.5"/>
+  <text x="890" y="175" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="middle">4. Documented</text>
+  <text x="890" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">Internal note logs</text>
+  <text x="890" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">exactly what was</text>
+  <text x="890" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">done and why</text>
+
+  <line x1="990" y1="200" x2="1038" y2="200" stroke="#0078D4" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 5: Closed -->
+  <rect x="1040" y="140" width="200" height="120" rx="8" fill="#f3f8fd" stroke="#8ab4d8" stroke-width="1.5"/>
+  <text x="1140" y="175" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="middle">5. Resolved &amp; Closed</text>
+  <text x="1140" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">Requester notified,</text>
+  <text x="1140" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">ticket marked</text>
+  <text x="1140" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">Resolved</text>
+
+  <!-- Category branches below -->
+  <text x="640" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1b1b" text-anchor="middle">Four Help Topics</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#444444" text-anchor="middle">
+    <rect x="60" y="345" width="270" height="40" rx="6" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+    <text x="195" y="369">New Hire Provisioning (M365)</text>
+
+    <rect x="360" y="345" width="270" height="40" rx="6" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+    <text x="495" y="369">Account Lockout / Access (M365)</text>
+
+    <rect x="660" y="345" width="270" height="40" rx="6" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+    <text x="795" y="369">Shared Mailbox Access (M365)</text>
+
+    <rect x="960" y="345" width="270" height="40" rx="6" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+    <text x="1095" y="369">Hardware/Printer Issue (no M365)</text>
+  </g>
+</svg>
