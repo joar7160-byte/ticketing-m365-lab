@@ -55,6 +55,8 @@ Request: a user can't sign into Outlook and believes their account is locked.
 
 Resolution: password reset through the admin center, account unlocked, user required to set a new password at next sign-in, documented and closed.
 
+<img src="Screenshots/06-m365-password-reset-settings.png" width="500"><br><br>
+<img src="Screenshots/07-m365-password-reset-confirmation.png" width="500"><br><br>
 <img src="Screenshots/08-ticket-account-lockout-resolved.png" width="700"><br><br>
 
 **3. Shared Mailbox Access Request**
@@ -63,6 +65,7 @@ Request: the finance team needs a shared mailbox so multiple people can view and
 
 Resolution: shared mailbox created, access granted to the requesting team member, documented and closed.
 
+<img src="Screenshots/09-m365-shared-mailbox-members.png" width="700"><br><br>
 <img src="Screenshots/10-ticket-shared-mailbox-resolved.png" width="700"><br><br>
 
 **4. Hardware/Printer Issue**
