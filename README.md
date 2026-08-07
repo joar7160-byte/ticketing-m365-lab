@@ -75,8 +75,7 @@ Resolution: standard hands-on troubleshooting, no M365 admin work required, docu
 
 ## Troubleshooting Notes
 
-- Local MySQL root password caused osTicket's installer to reject a blank password field; resolved by setting an actual root password and reusing it in the installer
-- A staff login lockout followed, requiring a direct password reset via the MySQL command line rather than the web UI
+- Local MySQL root password caused osTicket's installer to reject a blank password field, then triggered a staff login lockout; resolved by setting a real root password and resetting the admin login directly via the MySQL command line
 - Ran out of available Microsoft 365 licenses when creating a new user, since the trial's one license was assigned to the admin account; resolved by unassigning it from the admin and reassigning it to the new user
 
 ## Why This Project Matters
